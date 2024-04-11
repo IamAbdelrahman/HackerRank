@@ -41,3 +41,10 @@ int max(int count,...) {
   return max;
 }
 
+int main() {
+    int result = sum(3, 10, 20, 30);
+    printf("Sum: %d\n", result);
+
+    return 0;
+}
+
